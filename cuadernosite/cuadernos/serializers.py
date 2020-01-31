@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from cuadernos.models import Cuaderno
 
-# Lead Serializer
+# Cuaderno Serializer
 class CuadernoSerializer(serializers.ModelSerializer):
   class Meta:
     model = Cuaderno

@@ -31,8 +31,8 @@ export class Alerts extends Component {
     }
 
     if(message !== previousProps.message){
-      if (message.deleteLead) alert.success(message.deleteLead); 
-      if (message.addLead) alert.success(message.addLead); 
+      if (message.deleteCuaderno) alert.success(message.deleteCuaderno); 
+      if (message.addCuaderno) alert.success(message.addCuaderno); 
       if (message.passwordsNotMatching) alert.error(message.passwordsNotMatching); 
     }
   }

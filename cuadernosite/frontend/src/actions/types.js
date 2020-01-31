@@ -1,6 +1,6 @@
-export const GET_LEADS = "GET_LEADS";
-export const DELETE_LEAD = "DELETE_LEAD";
-export const ADD_LEAD = "ADD_LEAD"; 
+export const GET_CUADERNOS = "GET_CUADERNOS";
+export const DELETE_CUADERNO = "DELETE_CUADERNO";
+export const ADD_CUADERNO = "ADD_CUADERNO"; 
 export const GET_ERRORS = "GET_ERRORS"; 
 export const CREATE_MESSAGE  = "CREATE_MESSAGE"; 
 export const USER_LOADING  = "USER_LOADING"; 
